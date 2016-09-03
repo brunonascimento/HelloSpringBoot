@@ -19,4 +19,8 @@ public class GreetingController {
         return "greeting";
     }
 
+    @RequestMapping("/")
+    public String home() {
+        return "index";
+    }
 }
